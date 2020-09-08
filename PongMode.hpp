@@ -7,7 +7,9 @@
 
 #include <vector>
 #include <deque>
-
+#include <set>
+#include <math.h>
+#include <tuple>
 /*
  * PongMode is a game mode that implements a single-player game of Pong.
  */
@@ -32,6 +34,9 @@ struct PongMode : Mode {
 
 	glm::vec2 ball = glm::vec2(0.0f, 0.0f);
 	glm::vec2 ball_velocity = glm::vec2(-1.0f, 0.0f);
+	
+	std::set<std::tuple<float,float>> visited;
+	uint32_t total = (court_radius.x/ball_radius.x) * (court_radius.y/ball_radius.y);
 
 	uint32_t left_score = 0;
 	uint32_t right_score = 0;

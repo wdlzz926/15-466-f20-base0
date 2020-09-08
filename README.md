@@ -1,8 +1,8 @@
-# (TODO: your game's title)
+# Fill
 
-Author: (TODO: your name)
+Author: Zizhuo Lin
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: Try to use the ball to paint the whole court. Good to relax if you want to fill something.
 
 Screen Shot:
 
@@ -10,6 +10,6 @@ Screen Shot:
 
 How To Play:
 
-(TODO: describe the controls and (if needed) goals/strategy.)
+Use mouse to control the paddle and reflect the ball.
 
 This game was built with [NEST](NEST.md).
